@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /productos
+  port: 8080
+
+spring:
+  application:
+    name: productos
+  r2dbc:
+    url: r2dbc:postgresql://aws-0-us-west-2.pooler.supabase.com:5432/postgres
+    username: postgres.izymzbjogpuccewckaao
+    password: Sistemas.2026
+    pool:
+      max-size: 10
